@@ -1,4 +1,10 @@
 /*  your css code here. If applicable */
+body{
+			height:100vh;
+			width:100vw;
+			padding:0px;
+			margin:0px;
+		}
 #animal-photos{
 	background-color:#444444;
 	display:flex;
@@ -10,7 +16,14 @@
 }
 #photo-container{
 	display:grid;
-	grid-template-columns:repeat(3,1fr);
+	grid-template-columns:repeat(3,200px);
 	grid-template-rows:repeat(3,1fr);
+	width:100%;
 	gap:10px;
+}
+
+img{
+	background-size:cover;
+	height:200px;
+	width:200px;
 }
